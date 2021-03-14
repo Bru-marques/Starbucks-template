@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
+
+body {
+    font-family: "Open sans", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.line {
+    background-color: #117050;
+    height: 10px;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.header--left img {
+    width: 64px;
+    height: 64px;
+}
+.header--rigth {
+    display: flex;
+    align-items: center;
+}
+.header--search form {
+    display: flex;
+}
+.header--search input {
+    font-size: 16px;
+    border: 1px solid #999999;
+    padding: 8px 13px;
+    width: 100%;
+    max-width:250px;
+    outline: 0;
+}
+.header--search button {
+    background-color: transparent;
+    border: 0;
+    margin-left: -30px;
+    cursor: pointer;
+}
+.header--search button img {
+    width: 16px;
+    height: 16px;
+}
+.header--menu {
+    margin-left: 50px;
+    cursor: pointer;
+}
+.header--menu img {
+    width: 24px;
+    height: 24px;
+}
+.banner {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 100px 0px;
+}
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 75px;
+    margin: 0px;
+    margin-bottom: 60px;
+}
+.banner--image img {
+    width: 148px;
+    height: 148px;
+    border-radius: 50%;
+    border: 4px solid #117050;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.area--content {
+}
+.area1--img1 {
+
+}
+.area1--img2 {
+
+}
